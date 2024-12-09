@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <script src="https://kit.fontawesome.com/8e223bc082.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mwrps2.css">
+
+</head>
+<body>
+    <h1>Rock, Paper, Scissors</h1>
+    <div id="prompt"></div>
+
+    <div id="choices">
+        <button onclick="selectChoice('rock')"><i class="fa-regular fa-hand-back-fist"></i></button>
+        <button onclick="selectChoice('paper')"><i class="fa-regular fa-hand"></i></button>
+        <button onclick="selectChoice('scissors')"><i class="fa-regular fa-hand-scissors"></i></button>
+    </div>
+    <div id="startButton">
+        <button onclick="startGame()">Go!</button>
+    </div> 
+    <div id="playerDisplay"></div>
+    <div id="computerDisplay"></div>
+    <div id="resultDisplay"></div>
+
+    <script src="mwrps2.js" defer></script>
+</body>
+</html>

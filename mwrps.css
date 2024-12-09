@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+h1{
+    font-size: 3.5rem;
+}
+.choices{
+    margin-bottom: 30px;
+}
+#choices button{
+    min-width: 160px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 250px;
+    font-size: 250px;
+    padding: 15px;
+    background-color: aliceblue;
+}
+#choices button:hover{
+    color: rgb(66, 216, 101);
+}
+#choices button:focus{
+    color: rgb(66, 216, 101);
+}
+#startButton button{
+    background-color: rgb(66, 216, 101);
+    border-color:  aliceblue;
+    color: aliceblue;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    padding: 12px 32px;
+}
+#playerDisplay, #computerDisplay{
+    font-size: 2rem;
+}
+#resultDisplay{
+    font-size: 5rem;
+    font-weight: bold;
+}
